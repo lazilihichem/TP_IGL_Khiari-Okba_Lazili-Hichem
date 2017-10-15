@@ -11,7 +11,6 @@ import java.util.Scanner;
         private int MAx = 0;
         public VectorHelper()
         {
-
             Scanner sc = new Scanner(System.in);
             System.out.print("entrez la taille du tableau : ");
             int taille = sc.nextInt();
