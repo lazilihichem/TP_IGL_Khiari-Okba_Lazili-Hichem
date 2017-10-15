@@ -2,13 +2,29 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Created by Okba on 15/10/2017.
+ * Cette class est une class qui aide a utiliser les tableau
+ * elle vous permet de
+ * <ul>
+ *     <li> remplir un tableau</li>
+ *     <li> afficher les elements du tableau</li>
+ *     <li> donner le Min et le Max</li>
+ *     <li> Inverser le Tableau</li>
+ *     <li> Trie le tableau</li>
+ *
+ * </ul>
+ * @author lazili_khiari
+ *
  */
 
     public class VectorHelper {
         private ArrayList<Integer> tableau;
         private int Min = 0;
         private int MAx = 0;
+        /**
+         * constructeur de la class
+         * @author lazili
+         *
+        */
         public VectorHelper()
         {
             Scanner sc = new Scanner(System.in);
@@ -24,6 +40,11 @@ import java.util.Scanner;
                 tableau.add(element);
             }
         }
+    /**
+     * afficher les elements du tableau
+     * @author lazili
+     *
+     */
         public void affiche()
         {
             int i;
@@ -34,6 +55,11 @@ import java.util.Scanner;
 
             }
         }
+    /**
+     * trouver le minimum dans un tableau
+     * @author lazili
+     *@return elle retourn le plus grand element dans le tableau
+     */
         public int MIN()
         {
             int min = tableau.get(1);
@@ -47,6 +73,11 @@ import java.util.Scanner;
             }
             return min;
         }
+    /**
+     * trouver le maximum dans le tableau
+     * @author lazili
+     * @return elle retourn le plus petit element dans le tableau
+     */
         public int MAX()
         {
             int max = tableau.get(1);
@@ -60,6 +91,11 @@ import java.util.Scanner;
             }
             return max;
         }
+    /**
+     * inverser le tableau
+     * @author lazili
+     *
+     */
         public void inverse()
         {
             int i = 1;
