@@ -4,14 +4,12 @@ import java.util.Scanner;
 /**
  * Created by Okba on 15/10/2017.
  */
-public class VectorHelper {
- import java.util.Scanner;
-import java.util.ArrayList;
-    public class vecteur {
+
+    public class VectorHelper {
         private ArrayList<Integer> tableau;
         private int Min = 0;
         private int MAx = 0;
-        public vecteur()
+        public VectorHelper()
         {
 
             Scanner sc = new Scanner(System.in);
@@ -78,4 +76,4 @@ import java.util.ArrayList;
         }
     }
 
-}
+
