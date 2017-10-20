@@ -138,6 +138,7 @@ import java.util.Scanner;
         }
         return Resulta;
     }
+    //////////////////////////////////////////
 
     /**
      * trier le tableau
