@@ -43,7 +43,7 @@ import java.util.Scanner;
 
     public VectorHelper(ArrayList<Integer> liste) {
         tableau = new ArrayList<Integer>();
-        int i;
+        int i=0;
         for (i = 0; i < liste.size(); i++) {
             tableau.add(liste.get(i));
         }
