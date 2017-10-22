@@ -4,7 +4,7 @@ package TP_IGL;
  * methode du test du programme
  * @author khiari
  */
-hichem
+okba
 public class Main {
     public static void main(String args[])
     {
