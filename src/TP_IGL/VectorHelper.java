@@ -66,7 +66,7 @@ import java.util.Scanner;
     /**
      * trouver le minimum dans un tableau
      *
-     * @return elle retourn le plus grand element dans le tableau
+     * @return elle retourn le plus petit element dans le tableau
      * @author lazili
      */
     public int MIN() {
@@ -83,7 +83,7 @@ import java.util.Scanner;
     /**
      * trouver le maximum dans le tableau
      *
-     * @return elle retourn le plus petit element dans le tableau
+     * @return elle retourn le plus grand element dans le tableau
      * @author lazili
      */
     public int MAX() {
