@@ -21,6 +21,7 @@ import java.util.Scanner;
     private ArrayList<Integer> tableau;
     private int Min = 0;
     private int MAx = 0;
+    int j= 0;
 
     /**
      * constructeur de la class
