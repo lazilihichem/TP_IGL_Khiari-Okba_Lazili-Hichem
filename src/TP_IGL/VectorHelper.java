@@ -28,7 +28,7 @@ import java.util.Scanner;
      *
      * @author lazili
      */
-    public VectorHelper() {
+    public VectorHelper2() {
         Scanner sc = new Scanner(System.in);
         System.out.print("entrez la taille du tableau : ");
         int taille = sc.nextInt();
