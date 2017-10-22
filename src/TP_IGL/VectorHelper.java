@@ -1,4 +1,4 @@
-package TP_IGL;
+package TP000;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,13 +21,14 @@ import java.util.Scanner;
     private ArrayList<Integer> tableau;
     private int Min = 0;
     private int MAx = 0;
+    int j= 0;
 
     /**
      * constructeur de la class
      *
      * @author lazili
      */
-    public VectorHelper() {
+    public VectorHelper2() {
         Scanner sc = new Scanner(System.in);
         System.out.print("entrez la taille du tableau : ");
         int taille = sc.nextInt();
@@ -43,7 +44,7 @@ import java.util.Scanner;
 
     public VectorHelper(ArrayList<Integer> liste) {
         tableau = new ArrayList<Integer>();
-        int i;
+        int i=0;
         for (i = 0; i < liste.size(); i++) {
             tableau.add(liste.get(i));
         }
@@ -66,7 +67,7 @@ import java.util.Scanner;
     /**
      * trouver le minimum dans un tableau
      *
-     * @return elle retourn le plus grand element dans le tableau
+     * @return elle retourn le plus petit element dans le tableau
      * @author lazili
      */
     public int MIN() {
@@ -83,7 +84,7 @@ import java.util.Scanner;
     /**
      * trouver le maximum dans le tableau
      *
-     * @return elle retourn le plus petit element dans le tableau
+     * @return elle retourn le plus grand element dans le tableau
      * @author lazili
      */
     public int MAX() {
@@ -138,6 +139,8 @@ import java.util.Scanner;
         }
         return Resulta;
     }
+    //////////////////////////////////////////
+    //////////////////////////////////////////
 
     /**
      * trier le tableau

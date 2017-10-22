@@ -1,4 +1,4 @@
-package TP_IGL;
+package TP00;
 
 /**
  * c'est une exception du dépacement du taille
